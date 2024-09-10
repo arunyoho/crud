@@ -10,7 +10,7 @@ const [values,setValues]=useState({
     phone:" "
 })
 
-const navigate = useNavigate
+const navigate = useNavigate();
 
  const handleSumbit = (event) =>{
     event.preventDefault();
