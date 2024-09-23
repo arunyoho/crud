@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/users")
+      .get("http://localhost:3000/users/")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
   });

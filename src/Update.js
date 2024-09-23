@@ -36,7 +36,7 @@ const Update = () => {
             <input type='text' name='phone' className='form-control' placeholder='Enter Phone'
            value={data.phone}/>
         </div>
-        <button className='btn btn-success'>Sumbit</button>
+        <button className='btn btn-success'>Update </button>
         <Link to="/" className='btn btn-primary ms-3'>Back</Link>
       </form>
       </div>
